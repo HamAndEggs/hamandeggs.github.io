@@ -8,7 +8,9 @@ This is an alternative to using make as a tool for creating c/c++ applications i
   * Full **dependacy** checking.
   * Project references and automaic building of these references when needed.
   * Multithread compiling.
+  * Builtin build environment defines to help with build time and version generation.
+  * Single process used during entire build process that allows for increased speed of dependency checking between source files.
+  * Does not create extra files to manage the project and so will not clutter up your repository. Just uses the **one** project file for each project.
+* Features comming soon
   * Resource file support with file API and compression, think something like res folder for Android apps.
-  * Builtin build enevroment defines to help with build time and version generation.
-  * Single process used during entire application build process that allows for increased speed of dependency checking between source files.
 
